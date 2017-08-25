@@ -1,7 +1,7 @@
 {
   "name": "tree-testing",
   "version": "1.0.0",
-  "description": "Practice using tree logic on arrays"
+  "description": "Practice using tree logic on arrays",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --watch-extensions js *test.js"
