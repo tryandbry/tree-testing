@@ -1,21 +1,21 @@
 {
-  "name": "testbed",
+  "name": "tree-testing",
   "version": "1.0.0",
-  "description": "Boilerplate for mocha/chai testing",
+  "description": "Practice using tree logic on arrays"
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register --watch-extensions js *test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryandbry/testbed.git"
+    "url": "git+https://github.com/tryandbry/tree-testing.git"
   },
   "author": "Bryan Kao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tryandbry/testbed/issues"
+    "url": "https://github.com/tryandbry/tree-testing/issues"
   },
-  "homepage": "https://github.com/tryandbry/testbed#readme",
+  "homepage": "https://github.com/tryandbry/tree-testing#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
