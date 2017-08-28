@@ -56,4 +56,20 @@ describe('bstFind',function(){
       expect(bst.find(779)).to.be.false;
     });
   });
+
+  describe('inOrder() method',function(){
+    let bst;
+    beforeEach(function(){
+      bst = new testbed.Bst(seed.shift());
+      while(seed.length){
+        bst.insert(seed.shift());
+      }
+    });
+
+    it('executes a function in ascending order',function(){
+      let arr = [];
+      bst.inOrder((val) => arr.push(val));
+      expect(arr).to.deep.equal([0,6,10,18,28,37,44,53,60,78,91,105,131,193,402]);
+    });
+  });
 });
